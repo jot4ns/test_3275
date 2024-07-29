@@ -1,0 +1,10 @@
+includes:
+    - phpstan-baseline.neon
+
+parameters:
+    level: 0
+    paths:
+        - var/www/sigge
+        - var/lib/sigge/scripts
+        - var/lib/sigge/plantillas_reportes
+        - otros
