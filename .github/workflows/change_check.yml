@@ -71,10 +71,8 @@ jobs:
           done
 
       - name: Run PHPStan on modified PHP files
-          PHP_FILES=$(git diff --name-only origin/main -- '*.php' | tr '\n' ' ')
-          if [ "$PHP_FILES" != "" ]; then
-            vendor/bin/phpstan analyse --error-format=github $PHP_FILES
-          fi
+        if: env.PHP_FILES != ''
+        run: vendor/bin/phpstan analyse --error-format=github ${{ env.PHP_FILES }}
 
       - name: Run PHPCS on modified PHP files
         if: env.PHP_FILES != ''
