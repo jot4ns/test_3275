@@ -1,0 +1,1711 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Call to an undefined static method CorreoDTE\\:\\:actualizar_fecha_emision\\(\\)\\.$#"
+			count: 1
+			path: otros/actualizar_fecha_emision.php
+
+		-
+			message: "#^Call to an undefined static method CorreoDTE\\:\\:listar_correos_por_fecha_hora_recibido\\(\\)\\.$#"
+			count: 1
+			path: otros/actualizar_fecha_emision.php
+
+		-
+			message: "#^Call to static method createReader\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: otros/cargar_medidas_distribuidoras.php
+
+		-
+			message: "#^Call to static method excelToDateTimeObject\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Shared\\\\Date\\.$#"
+			count: 2
+			path: otros/cargar_medidas_distribuidoras.php
+
+		-
+			message: "#^Call to static method load\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: otros/cargar_precio_potencia_estabilizado.php
+
+		-
+			message: "#^File ends with a trailing whitespace\\. This may cause problems when running the code in the web browser\\. Remove the closing \\?\\> mark or remove the whitespace\\.$#"
+			count: 1
+			path: otros/demo/cambiador_logo.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: otros/generar_resumen_ci.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: otros/generar_resumen_ci.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: otros/procesar_xml.php
+
+		-
+			message: "#^File ends with a trailing whitespace\\. This may cause problems when running the code in the web browser\\. Remove the closing \\?\\> mark or remove the whitespace\\.$#"
+			count: 1
+			path: otros/prueba_bls.php
+
+		-
+			message: "#^Function create_function not found\\.$#"
+			count: 1
+			path: otros/prueba_detach.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: otros/validardte/procesa.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: otros/validardte/procesa.php
+
+		-
+			message: "#^Call to an undefined static method DocumentoTributario\\:\\:consolidar\\(\\)\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/consolidacion.php
+
+		-
+			message: "#^Call to an undefined static method DocumentoTributario\\:\\:eliminar_documentos\\(\\)\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/consolidacion.php
+
+		-
+			message: "#^Call to an undefined static method DocumentoTributario\\:\\:facturar_periodo\\(\\)\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/consolidacion.php
+
+		-
+			message: "#^Call to an undefined static method DocumentoTributario\\:\\:listar_documentos_pendientes\\(\\)\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/consolidacion.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/descargar_procesar_emitidos.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/descargar_procesar_emitidos.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/documentos_impagos_recordatorio.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/documentos_impagos_recordatorio.php
+
+		-
+			message: "#^Access to undefined constant CorreoDTE\\:\\:CASILLA_ARCHIVOS_ERSA\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/calce_egresos_ersa_correo.php
+
+		-
+			message: "#^Access to undefined constant CorreoDTE\\:\\:PASSWORD_ARCHIVOS_ERSA\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/calce_egresos_ersa_correo.php
+
+		-
+			message: "#^Call to static method createReader\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/conciliacion_archivos_rucatayo.php
+
+		-
+			message: "#^Call to static method excelToDateTimeObject\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Shared\\\\Date\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/conciliacion_archivos_rucatayo.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/conciliacion_archivos_rucatayo.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/conciliacion_archivos_rucatayo.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/peru/procesar_pagos_recibidos_redinter.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/peru/procesar_pagos_recibidos_redinter.php
+
+		-
+			message: "#^Call to static method createReader\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_agram.php
+
+		-
+			message: "#^Call to static method excelToTimestamp\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Shared\\\\Date\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_agram.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_agram.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_agram.php
+
+		-
+			message: "#^Call to static method load\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_arco.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_arco.php
+
+		-
+			message: "#^Access to constant FORMAT_NUMBER_COMMA_SEPARATED2 on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Style\\\\NumberFormat\\.$#"
+			count: 2
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_atlas.php
+
+		-
+			message: "#^Call to static method load\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_atlas.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_atlas.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_bhp.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_bhp.php
+
+		-
+			message: "#^Call to static method createReader\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_elmorado.php
+
+		-
+			message: "#^Call to static method excelToTimestamp\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Shared\\\\Date\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_elmorado.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_grenergy.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_grenergy.php
+
+		-
+			message: "#^Call to static method createReader\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_sanpedroiii.php
+
+		-
+			message: "#^Call to static method excelToTimestamp\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Shared\\\\Date\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_sanpedroiii.php
+
+		-
+			message: "#^Call to static method excelToTimestamp\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Shared\\\\Date\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_skeolico.php
+
+		-
+			message: "#^Call to static method load\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_skeolico.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_skeolico.php
+
+		-
+			message: "#^Call to static method excelToTimestamp\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Shared\\\\Date\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_statkraft.php
+
+		-
+			message: "#^Call to static method load\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_statkraft.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_statkraft.php
+
+		-
+			message: "#^Call to static method createReader\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 2
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_wpd.php
+
+		-
+			message: "#^Call to static method excelToTimestamp\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Shared\\\\Date\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/erp/procesar_pagos_recibidos_wpd.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/filtro_correos_bhp.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/filtro_correos_bhp.php
+
+		-
+			message: "#^Access to undefined constant CorreoDTE\\:\\:CASILLA_FILTRO_CERRO_DOMINADOR\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/filtro_correos_cerro.php
+
+		-
+			message: "#^Access to undefined constant CorreoDTE\\:\\:PASSWORD_FILTRO_CERRO_DOMINADOR\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/filtro_correos_cerro.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/peru/procesar_emitidos_junin.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/peru/procesar_emitidos_junin.php
+
+		-
+			message: "#^Call to static method createReader\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_egresos_oc_lipigas.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_atria.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_atria.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 2
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_bhp.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 2
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_bhp.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_cec.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_cec.php
+
+		-
+			message: "#^Access to undefined constant CorreoDTE\\:\\:CASILLA_ENVIADOS_CERRO_DOMINADOR\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_cerro.php
+
+		-
+			message: "#^Access to undefined constant CorreoDTE\\:\\:PASSWORD_ENVIADOS_CERRO_DOMINADOR\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_cerro.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_cerro.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_cerro.php
+
+		-
+			message: "#^Access to undefined constant CorreoDTE\\:\\:CASILLA_ENVIADOS_CODELCO\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_codelco.php
+
+		-
+			message: "#^Access to undefined constant CorreoDTE\\:\\:PASSWORD_ENVIADOS_CODELCO\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_codelco.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_codelco.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_codelco.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 2
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_comasa.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 2
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_comasa.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_coopelan.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_coopelan.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_copelec.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_copelec.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_ersa.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_ersa.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_escondida.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_escondida.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_evol.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_evol.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_ferrero.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_ferrero.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_lap.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_lap.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_lipigas.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_lipigas.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_masisa.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_masisa.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_neoelectra.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_neoelectra.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_skeolico.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_skeolico.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_socoepa.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_socoepa.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_statkraft.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_statkraft.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_wpd.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_emitidos_wpd.php
+
+		-
+			message: "#^Access to undefined constant CorreoDTE\\:\\:CASILLA_FILTRO_CODELCO\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_recibidos_codelco.php
+
+		-
+			message: "#^Access to undefined constant CorreoDTE\\:\\:PASSWORD_FILTRO_CODELCO\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_recibidos_codelco.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_recibidos_codelco.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/facturacion/sap/procesar_recibidos_codelco.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/portal_pagos/compara_egresos_sigge_ppagos.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/portal_pagos/compara_egresos_sigge_ppagos.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/portal_pagos/compara_ingresos_sigge_ppagos.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/portal_pagos/compara_ingresos_sigge_ppagos.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/portal_pagos/informar_disconformidades.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/portal_pagos/informar_disconformidades.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/reporte_conciliacion.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/reporte_conciliacion.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/reporte_consolidado.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/reporte_consolidado.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/reporte_diario.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/reporte_diario.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/reporte_facturacion.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/reporte_facturacion.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 2
+			path: var/lib/sigge/scripts/reportes/reporte_folios.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 2
+			path: var/lib/sigge/scripts/reportes/reporte_folios.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/validacion_mensual.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/validacion_mensual.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/validacion_reporte_estimacion.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/validacion_reporte_estimacion.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/validar_codigos_internos.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/validar_codigos_internos.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/validar_facturas_repetidas.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/validar_facturas_repetidas.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/validar_secuencia_folios.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/validar_secuencia_folios.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/verificacion_cuentas_contables.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/verificacion_cuentas_contables.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/verificacion_cuentas_contables_contratos.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/verificacion_cuentas_contables_contratos.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/verificacion_origen_ingresos.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/lib/sigge/scripts/validaciones/verificacion_origen_ingresos.php
+
+		-
+			message: "#^Method Balance\\:\\:nemotecnico\\(\\) should return string but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/Balance.php
+
+		-
+			message: "#^Access to an undefined property Banco\\:\\:\\$conn_pg\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/Banco.php
+
+		-
+			message: "#^Method Calendario\\:\\:obtenerAnteriorDiaHabil\\(\\) should return string but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/Calendario.php
+
+		-
+			message: "#^Method Calendario\\:\\:obtenerSiguienteDiaHabil\\(\\) should return string but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/Calendario.php
+
+		-
+			message: "#^Access to an undefined property CodigoInterno\\:\\:\\$conn_pg\\.$#"
+			count: 6
+			path: var/www/sigge/biblio/CodigoInterno.php
+
+		-
+			message: "#^Access to an undefined property CodigoOC\\:\\:\\$conn_pg\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/CodigoOC.php
+
+		-
+			message: "#^Undefined variable\\: \\$last$#"
+			count: 1
+			path: var/www/sigge/biblio/CorreoDTE.php
+
+		-
+			message: "#^Method DocumentoTributario\\:\\:calzar_dte_emitido\\(\\) should return int but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/DocumentoTributario.php
+
+		-
+			message: "#^Instantiated class TCPDF not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/GeneraPDF.php
+
+		-
+			message: "#^Method Log\\:\\:explicar_evento\\(\\) should return string but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/Log.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/MailAviso.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/MailAviso.php
+
+		-
+			message: "#^Access to an undefined property MockMovenerLicitaciones\\:\\:\\$lista_servicios\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/MockMovenerLicitaciones.php
+
+		-
+			message: "#^Call to sprintf contains 0 placeholders, 1 value given\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/MovenerLicitaciones.php
+
+		-
+			message: "#^Call to static method createReader\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/MovenerLicitaciones.php
+
+		-
+			message: "#^Function create_function not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/MovenerSTAR.php
+
+		-
+			message: "#^Method MovenerSTAR\\:\\:limpia_tablas\\(\\) should return bool but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/MovenerSTAR.php
+
+		-
+			message: "#^Access to an undefined property ParserXML\\:\\:\\$cantDTE\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/ParserXML.php
+
+		-
+			message: "#^Access to an undefined property ParserXML\\:\\:\\$contenido_xml\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/ParserXML.php
+
+		-
+			message: "#^Access to an undefined property ParserXML\\:\\:\\$destino\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/ParserXML.php
+
+		-
+			message: "#^Access to an undefined property ParserXML\\:\\:\\$dte\\.$#"
+			count: 12
+			path: var/www/sigge/biblio/ParserXML.php
+
+		-
+			message: "#^Access to an undefined property ParserXML\\:\\:\\$folio_dte\\.$#"
+			count: 6
+			path: var/www/sigge/biblio/ParserXML.php
+
+		-
+			message: "#^Access to an undefined property ParserXML\\:\\:\\$indice\\.$#"
+			count: 17
+			path: var/www/sigge/biblio/ParserXML.php
+
+		-
+			message: "#^Access to an undefined property ParserXML\\:\\:\\$referencias\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/ParserXML.php
+
+		-
+			message: "#^Access to an undefined property ParserXML\\:\\:\\$tipo_dte\\.$#"
+			count: 8
+			path: var/www/sigge/biblio/ParserXML.php
+
+		-
+			message: "#^Access to an undefined property ParserXML\\:\\:\\$valida\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/ParserXML.php
+
+		-
+			message: "#^Method ParserXML\\:\\:validaDTE\\(\\) should return string but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/ParserXML.php
+
+		-
+			message: "#^Method PortalPagos\\:\\:obtener_disconformidad_por_instruccion\\(\\) should return array but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/PortalPagos.php
+
+		-
+			message: "#^Method PortalPagos\\:\\:obtener_instruccion_pago\\(\\) should return array but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/PortalPagos.php
+
+		-
+			message: "#^Method PortalPagos\\:\\:obtener_instruccion_pago_por_id\\(\\) should return array but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/PortalPagos.php
+
+		-
+			message: "#^Deprecated in PHP 8\\.0\\: Required parameter \\$periodo_fin follows optional parameter \\$tipo\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/ReporteLicitaciones.php
+
+		-
+			message: "#^Deprecated in PHP 8\\.0\\: Required parameter \\$periodo_ini follows optional parameter \\$tipo\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/ReporteLicitaciones.php
+
+		-
+			message: "#^Method SFTPEfacturacion\\:\\:obtener\\(\\) should return bool but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/SFTPEfacturacion.php
+
+		-
+			message: "#^Undefined variable\\: \\$error$#"
+			count: 1
+			path: var/www/sigge/biblio/SFTPEfacturacion.php
+
+		-
+			message: "#^Access to an undefined property SistemaElectrico\\:\\:\\$conn_pg\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/SistemaElectrico.php
+
+		-
+			message: "#^Method Usuario\\:\\:cambia_empresa_inicial\\(\\) should return bool but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/Usuario.php
+
+		-
+			message: "#^Result of static method Usuario\\:\\:empresaInicial\\(\\) \\(void\\) is used\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/Usuario.php
+
+		-
+			message: "#^Call to sprintf contains 0 placeholders, 1 value given\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/contratos/AccionaAguasChanar.php
+
+		-
+			message: "#^Access to an undefined property AccionaAguasGenerico\\:\\:\\$cuentas_contables\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/AccionaAguasGenerico.php
+
+		-
+			message: "#^Access to an undefined property AccionaEconssa\\:\\:\\$cuentas_contables\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/AccionaEconssa.php
+
+		-
+			message: "#^Call to an undefined method AccionaEconssa\\:\\:obtener_dolar\\(\\)\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/contratos/AccionaEconssa.php
+
+		-
+			message: "#^Call to sprintf contains 0 placeholders, 1 value given\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/contratos/AccionaEnami.php
+
+		-
+			message: "#^Access to an undefined property AccionaKSChile\\:\\:\\$cuentas_contables\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/AccionaKSChile.php
+
+		-
+			message: "#^Call to sprintf contains 0 placeholders, 1 value given\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/contratos/AccionaLatam.php
+
+		-
+			message: "#^Access to an undefined property AccionaOtros\\:\\:\\$cuentas_contables\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/AccionaOtros.php
+
+		-
+			message: "#^Access to an undefined property AccionaWinpack\\:\\:\\$cuentas_contables\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/AccionaWinpack.php
+
+		-
+			message: "#^Access to an undefined property AtriaCLCMG\\:\\:\\$cpi\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/AtriaCLCMG.php
+
+		-
+			message: "#^Call to an undefined method AtriaCLCMG\\:\\:obtener_dolar\\(\\)\\.$#"
+			count: 4
+			path: var/www/sigge/biblio/contratos/AtriaCLCMG.php
+
+		-
+			message: "#^Cannot unset offset 'precio' on array\\{servicio\\: mixed, barra_id\\: mixed, unidad_cantidad\\: '', unidad_precio\\: '', variables\\: array\\{'descripcion', 'cantidad', 'monto'\\}, cantidad\\: 1, cuenta_contable_id\\: mixed, descripcion\\: non\\-falsy\\-string, \\.\\.\\.\\}\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/CecCL.php
+
+		-
+			message: "#^Access to an undefined property CerroDomiCL\\:\\:\\$cpi\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/CerroDomiCL.php
+
+		-
+			message: "#^Access to an undefined property CgecNCL\\:\\:\\$cpi\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/CgecNCL.php
+
+		-
+			message: "#^Access to an undefined property CgecNCL\\:\\:\\$precios_servicios_anterior\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/CgecNCL.php
+
+		-
+			message: "#^Access to an undefined property ColbunPacificSeafood\\:\\:\\$cpi\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/ColbunPacificSeafood.php
+
+		-
+			message: "#^Call to sprintf contains 0 placeholders, 1 value given\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/ColbunPacificSeafood.php
+
+		-
+			message: "#^Access to an undefined static property static\\(ContratoBase\\)\\:\\:\\$fecha_vencimiento_dia_especifico\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/ContratoBase.php
+
+		-
+			message: "#^Access to an undefined static property static\\(ContratoBase\\)\\:\\:\\$fecha_vencimiento_dia_especifico_habil_requerido\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/ContratoBase.php
+
+		-
+			message: "#^Access to an undefined static property static\\(ContratoBase\\)\\:\\:\\$fecha_vencimiento_dia_habil_especifico\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/ContratoBase.php
+
+		-
+			message: "#^Access to an undefined static property static\\(ContratoBase\\)\\:\\:\\$fecha_vencimiento_dias_corridos\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/ContratoBase.php
+
+		-
+			message: "#^Access to an undefined static property static\\(ContratoBase\\)\\:\\:\\$fecha_vencimiento_dias_habiles\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/ContratoBase.php
+
+		-
+			message: "#^Access to an undefined static property static\\(ContratoBase\\)\\:\\:\\$fecha_vencimiento_emision_dia_especifico_habil_requerido\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/ContratoBase.php
+
+		-
+			message: "#^Access to an undefined static property static\\(ContratoBase\\)\\:\\:\\$fecha_vencimiento_emision_dias_corridos\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/ContratoBase.php
+
+		-
+			message: "#^Access to an undefined static property static\\(ContratoBase\\)\\:\\:\\$fecha_vencimiento_emision_dias_habiles\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/ContratoBase.php
+
+		-
+			message: "#^Access to an undefined static property static\\(ContratoBase\\)\\:\\:\\$fecha_vencimiento_emision_ultimo_dia_habil_mes_estricto\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/ContratoBase.php
+
+		-
+			message: "#^Access to an undefined static property static\\(ContratoBase\\)\\:\\:\\$fecha_vencimiento_emision_ultimo_dia_mes_habil_requerido\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/ContratoBase.php
+
+		-
+			message: "#^Access to an undefined static property static\\(ContratoBase\\)\\:\\:\\$fecha_vencimiento_ultimo_dia_habil_mes\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/ContratoBase.php
+
+		-
+			message: "#^Access to an undefined property GrPowerCL\\:\\:\\$cpi\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/GrPowerCL.php
+
+		-
+			message: "#^Cannot unset offset 'precio' on array\\{servicio\\: mixed, barra_id\\: mixed, unidad_cantidad\\: '', unidad_precio\\: '', variables\\: array\\{'monto', 'cantidad'\\}, cantidad\\: 1, cuenta_contable_id\\: mixed, monto\\: float, \\.\\.\\.\\}\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/GrPowerCL.php
+
+		-
+			message: "#^Call to sprintf contains 0 placeholders, 1 value given\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/NeoCLEne.php
+
+		-
+			message: "#^Access to an undefined property NeoCOMCL\\:\\:\\$cpi\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/NeoCOMCL.php
+
+		-
+			message: "#^Access to an undefined property VentaEntre2Gx\\:\\:\\$cpi\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/contratos/VentaEntre2Gx.php
+
+		-
+			message: "#^Call to an undefined method VentaEntre2Gx\\:\\:obtener_dolar\\(\\)\\.$#"
+			count: 4
+			path: var/www/sigge/biblio/contratos/VentaEntre2Gx.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/ERPBase.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/chile/ERPCGEC.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/chile/ERPCGEC.php
+
+		-
+			message: "#^Undefined variable\\: \\$datos_empresa$#"
+			count: 3
+			path: var/www/sigge/biblio/erp/chile/ERPCGEC.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/chile/ERPGRPower.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/chile/ERPGRPower.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/chile/ERPGrenergy.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/chile/ERPPas.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/chile/ERPPuntaDeTalca.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/chile/ERPPuntaDeTalca.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/erp/chile/FlexlineComasa.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/chile/FlexlineComasa.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/erp/chile/SAPCerroDominador.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/erp/chile/SAPCerroDominador.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/erp/chile/SAPEvolTrading.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xls not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/chile/SAPEvolTrading.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/chile/SAPEvolTrading.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/erp/chile/SAPLipigas.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/erp/chile/SAPLipigas.php
+
+		-
+			message: "#^Call to sprintf contains 1 placeholder, 2 values given\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/chile/SAPStatkraft.php
+
+		-
+			message: "#^Access to constant TYPE_STRING on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Cell\\\\DataType\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/erp/peru/SAPRedesur.php
+
+		-
+			message: "#^Array has 2 duplicate keys with value 'Contrato entre REA y TESUR 3 \\(USD\\)' \\('Contrato entre REA y TESUR 3 \\(USD\\)', 'Contrato entre REA y TESUR 3 \\(USD\\)'\\)\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/peru/SAPRedesur.php
+
+		-
+			message: "#^Array has 2 duplicate keys with value 'Reliq\\. Servicios Tesur PPA' \\('Reliq\\. Servicios Tesur PPA', 'Reliq\\. Servicios Tesur PPA'\\)\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/peru/SAPRedesur.php
+
+		-
+			message: "#^Array has 2 duplicate keys with value 'Servicios Tesur PPA' \\('Servicios Tesur PPA', 'Servicios Tesur PPA'\\)\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/erp/peru/SAPRedesur.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/erp/peru/SAPRedesur.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/erp/peru/SAPRedesur.php
+
+		-
+			message: "#^Access to an undefined property Acepta\\:\\:\\$obj_config\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/facturadores/Acepta.php
+
+		-
+			message: "#^Access to an undefined property WebFactura\\:\\:\\$obj_config\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/facturadores/WebFactura.php
+
+		-
+			message: "#^Access to constant TYPE_STRING on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Cell\\\\DataType\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/planillasPago/PlanillaPagoGenerica.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/planillasPago/PlanillaPagoGenerica.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/planillasPago/PlanillaPagoGenerica.php
+
+		-
+			message: "#^Access to constant FORMAT_TEXT on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Style\\\\NumberFormat\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/planillasPago/empresas/PlanillaPagoCGE_C.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/planillasPago/empresas/PlanillaPagoCGE_C.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/planillasPago/empresas/PlanillaPagoCGE_C.php
+
+		-
+			message: "#^Method PlanillaPagoCGE_C\\:\\:exportarPlanilla\\(\\) should return binary but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/planillasPago/empresas/PlanillaPagoCGE_C.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/planillasPago/empresas/PlanillaPagoSAFIRA_ENERGIA.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/planillasPago/empresas/PlanillaPagoSAFIRA_ENERGIA.php
+
+		-
+			message: "#^Access to constant TYPE_STRING on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Cell\\\\DataType\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/planillasPago/empresas/PlanillaPagoSONNEDIX_COX.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/planillasPago/empresas/PlanillaPagoSONNEDIX_COX.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/planillasPago/empresas/PlanillaPagoSONNEDIX_COX.php
+
+		-
+			message: "#^Instantiated class GrPowerCL is abstract\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/precios/PrecioGRPowerComprador.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosBase\\:\\:\\$arr_mails\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosBase.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosBase\\:\\:\\$conn_pg\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosBase.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosBase\\:\\:\\$copia\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosBase.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosBase\\:\\:\\$empresa_pagadora_id\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosBase.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLAP\\:\\:\\$arr_mails\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLAP.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLAP\\:\\:\\$balance_id\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLAP.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLAP\\:\\:\\$conn_pg\\.$#"
+			count: 6
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLAP.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLAP\\:\\:\\$copia\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLAP.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLAP\\:\\:\\$cuenta_contable_id\\.$#"
+			count: 4
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLAP.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLAP\\:\\:\\$empresa_pagadora_id\\.$#"
+			count: 7
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLAP.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLAP\\:\\:\\$periodo_balance\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLAP.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLAP\\:\\:\\$sistema_id\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLAP.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLAP\\:\\:\\$tipo\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLAP.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLAP\\:\\:\\$version\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLAP.php
+
+		-
+			message: "#^Undefined variable\\: \\$empresa_pagadora$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLAP.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLIPIGAS\\:\\:\\$arr_mails\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLIPIGAS.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLIPIGAS\\:\\:\\$balance_id\\.$#"
+			count: 4
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLIPIGAS.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLIPIGAS\\:\\:\\$conn_pg\\.$#"
+			count: 5
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLIPIGAS.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLIPIGAS\\:\\:\\$copia\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLIPIGAS.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLIPIGAS\\:\\:\\$cuenta_contable_id\\.$#"
+			count: 5
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLIPIGAS.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLIPIGAS\\:\\:\\$empresa_pagadora_id\\.$#"
+			count: 4
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLIPIGAS.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLIPIGAS\\:\\:\\$periodo_balance\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLIPIGAS.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLIPIGAS\\:\\:\\$sistema_id\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLIPIGAS.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLIPIGAS\\:\\:\\$tipo\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLIPIGAS.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosLIPIGAS\\:\\:\\$version\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLIPIGAS.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLIPIGAS.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLIPIGAS.php
+
+		-
+			message: "#^Undefined variable\\: \\$empresa_pagadora$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosLIPIGAS.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosStatkraft\\:\\:\\$arr_mails\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosStatkraft.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosStatkraft\\:\\:\\$balance_id\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosStatkraft.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosStatkraft\\:\\:\\$conn_pg\\.$#"
+			count: 6
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosStatkraft.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosStatkraft\\:\\:\\$copia\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosStatkraft.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosStatkraft\\:\\:\\$cuenta_contable_id\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosStatkraft.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosStatkraft\\:\\:\\$empresa_pagadora_id\\.$#"
+			count: 5
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosStatkraft.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosStatkraft\\:\\:\\$periodo_balance\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosStatkraft.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosStatkraft\\:\\:\\$sistema_id\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosStatkraft.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosStatkraft\\:\\:\\$tipo\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosStatkraft.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosStatkraft\\:\\:\\$version\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosStatkraft.php
+
+		-
+			message: "#^Undefined variable\\: \\$empresa_pagadora$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosStatkraft.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosWPD\\:\\:\\$arr_mails\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosWPD.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosWPD\\:\\:\\$balance_id\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosWPD.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosWPD\\:\\:\\$conn_pg\\.$#"
+			count: 6
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosWPD.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosWPD\\:\\:\\$copia\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosWPD.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosWPD\\:\\:\\$cuenta_contable_id\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosWPD.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosWPD\\:\\:\\$empresa_pagadora_id\\.$#"
+			count: 5
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosWPD.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosWPD\\:\\:\\$periodo_balance\\.$#"
+			count: 3
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosWPD.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosWPD\\:\\:\\$sistema_id\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosWPD.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosWPD\\:\\:\\$tipo\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosWPD.php
+
+		-
+			message: "#^Access to an undefined property ProcesoEgresosWPD\\:\\:\\$version\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosWPD.php
+
+		-
+			message: "#^Undefined variable\\: \\$empresa_pagadora$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_egresos/ProcesoEgresosWPD.php
+
+		-
+			message: "#^Access to constant FORMAT_NUMBER_COMMA_SEPARATED2 on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\Style\\\\NumberFormat\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/procesos_pago/ProcesoPagoATLAS.php
+
+		-
+			message: "#^Call to static method load\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_pago/ProcesoPagoATLAS.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_pago/ProcesoPagoATLAS.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_pago/ProcesoPagoGR_POWER.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_pago/ProcesoPagoGR_POWER.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_pago/ProcesoPagoPAS.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_pago/ProcesoPagoPAS.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_pago/ProcesoPagoPUNTA_DE_TALCA.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/procesos_pago/ProcesoPagoPUNTA_DE_TALCA.php
+
+		-
+			message: "#^Access to an undefined property Sbs\\:\\:\\$conn_pg\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/scraping/Sbs.php
+
+		-
+			message: "#^Access to an undefined property Sbs\\:\\:\\$series_id\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/scraping/Sbs.php
+
+		-
+			message: "#^Access to an undefined property SugerirRechazoBHP\\:\\:\\$url\\.$#"
+			count: 2
+			path: var/www/sigge/biblio/sugerir_rechazo/SugerirRechazoBHP.php
+
+		-
+			message: "#^Method SugerirRechazoBHP\\:\\:ejecutar\\(\\) should return bool but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/sugerir_rechazo/SugerirRechazoBHP.php
+
+		-
+			message: "#^Method SugerirRechazoWPD\\:\\:ejecutar\\(\\) should return bool but return statement is missing\\.$#"
+			count: 1
+			path: var/www/sigge/biblio/sugerir_rechazo/SugerirRechazoWPD.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/ingresos/enviar_a_erp.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/ingresos/enviar_a_erp.php
+
+		-
+			message: "#^Result of function header \\(void\\) is used\\.$#"
+			count: 2
+			path: var/www/sigge/modulo/interno/admin_usuarios/menu_asociar_empresa.php
+
+		-
+			message: "#^Result of function header \\(void\\) is used\\.$#"
+			count: 4
+			path: var/www/sigge/modulo/interno/admin_usuarios/menu_eliminar_asociacion.php
+
+		-
+			message: "#^Result of function header \\(void\\) is used\\.$#"
+			count: 4
+			path: var/www/sigge/modulo/interno/admin_usuarios/menu_modificar_perfil.php
+
+		-
+			message: "#^Result of function header \\(void\\) is used\\.$#"
+			count: 2
+			path: var/www/sigge/modulo/interno/admin_usuarios/menu_modificar_usuario.php
+
+		-
+			message: "#^Result of function header \\(void\\) is used\\.$#"
+			count: 2
+			path: var/www/sigge/modulo/interno/admin_usuarios/menu_ver_empresas.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Spreadsheet not found\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/empresa/exportar_a_excel.php
+
+		-
+			message: "#^Instantiated class PhpOffice\\\\PhpSpreadsheet\\\\Writer\\\\Xlsx not found\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/empresa/exportar_a_excel.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/empresa_receptora/actualizar_empresa.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/empresa_receptora/actualizar_empresa.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/herramientas/descalce_ingresos.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/herramientas/descalce_ingresos.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/herramientas/validar_dte.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/herramientas/validar_dte.php
+
+		-
+			message: "#^Call to static method load\\(\\) on an unknown class PhpOffice\\\\PhpSpreadsheet\\\\IOFactory\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/ingresos/cargar_comentarios.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/ingresos/enviar_docs_impagos.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 2
+			path: var/www/sigge/modulo/interno/ingresos/enviar_docs_impagos.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/ingresos/facturar_por_origen.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/ingresos/facturar_por_origen.php
+
+		-
+			message: "#^Call to static method factory\\(\\) on an unknown class Mail\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/ingresos/reenviar_pdf.php
+
+		-
+			message: "#^Instantiated class Mail_mime not found\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/interno/ingresos/reenviar_pdf.php
+
+		-
+			message: "#^Access to undefined constant Log\\:\\:CAMBIO_CLAVE_FALTAN_DATO\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/preferencias/accion_cambio_clave.php
+
+		-
+			message: "#^Result of static method Usuario\\:\\:empresaInicial\\(\\) \\(void\\) is used\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/preferencias/accion_preferencias.php
+
+		-
+			message: "#^Result of static method Usuario\\:\\:empresaInicial\\(\\) \\(void\\) is used\\.$#"
+			count: 1
+			path: var/www/sigge/modulo/preferencias/preferencias.php
