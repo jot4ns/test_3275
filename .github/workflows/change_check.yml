@@ -1,0 +1,85 @@
+name: Change Check
+
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  change-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+
+      - name: Setup PHP and install tools
+        uses: shivammathur/setup-php@2.30.2
+        with:
+          php-version: '8.2'
+
+      - name: Install PHPCS, Variable Analysis, SQLFluff
+        run: |
+          composer require --dev "squizlabs/php_codesniffer=*"
+          composer config allow-plugins.dealerdirect/phpcodesniffer-composer-installer true
+          composer require --dev dealerdirect/phpcodesniffer-composer-installer
+          composer require --dev sirbrillig/phpcs-variable-analysis
+          composer require --dev phpstan/phpstan
+          pip install sqlfluff
+
+      - name: Fetch all history for all tags and branches
+        run: git fetch --prune --unshallow
+
+      - name: Determine if there is a previous commit
+        run: |
+          if git rev-parse HEAD^ > /dev/null 2>&1; then
+            echo "HAS_PREVIOUS_COMMIT=true" >> $GITHUB_ENV
+          else
+            echo "HAS_PREVIOUS_COMMIT=false" >> $GITHUB_ENV
+          fi
+
+      - name: Find modified files in specified directories
+        run: |
+          if [ "$HAS_PREVIOUS_COMMIT" == "true" ]; then
+            CHANGED_FILES=$(git diff --name-only HEAD^ HEAD || true)
+            PHP_FILES=$(echo "$CHANGED_FILES" | grep -E 'var/www/sigge|var/lib/sigge/scripts|var/lib/sigge/plantillas_reportes|otros' | grep -E '\.php$' | tr '\n' ' ' || true)
+            SQL_FILES=$(echo "$CHANGED_FILES" | grep -E 'sql' | grep '\.sql$' | tr '\n' ' ' || true)
+            echo "PHP_FILES=${PHP_FILES[@]}" >> $GITHUB_ENV
+            echo "SQL_FILES=${SQL_FILES[@]}" >> $GITHUB_ENV
+          else
+            echo "No previous commit to compare."
+          fi
+
+      - name: Run PHP Lint on modified PHP files
+        if: env.PHP_FILES != ''
+        run: |
+          IFS=' ' read -r -a php_files_array <<< "$PHP_FILES"
+          for file in "${php_files_array[@]}"; do
+            php -l "$file"
+          done
+
+      - name: Run SQL Lint on modified SQL files
+        if: env.SQL_FILES != ''
+        run: |
+          IFS=' ' read -r -a sql_files_array <<< "$SQL_FILES"
+          for file in "${sql_files_array[@]}"; do
+            # Aplicando solo las reglas especificadas y excluyendo todas las demás
+            # Otras reglas: https://docs.sqlfluff.com/en/stable/rules.html
+            sqlfluff lint --dialect postgres --rules "L013,L029,L031,L034,L042,L054" "$file"
+          done
+
+      - name: Run PHPStan on modified PHP files
+        if: env.PHP_FILES != ''
+        run: |
+          ./vendor/bin/phpstan a $PHP_FILES --error-format=github
+
+      - name: Run PHPCS on modified PHP files
+        if: env.PHP_FILES != ''
+        run: |
+          ./vendor/bin/phpcs --standard=VariableAnalysis $PHP_FILES
+
+      - name: No files modified
+        if: env.PHP_FILES == '' && env.SQL_FILES == '' && env.HAS_PREVIOUS_COMMIT == 'true'
+        run: echo "No PHP or SQL files have been modified."
