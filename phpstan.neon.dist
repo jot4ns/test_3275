@@ -8,3 +8,8 @@ parameters:
         - var/lib/sigge/scripts
         - var/lib/sigge/plantillas_reportes
         - otros
+
+services:
+    -
+        class: MissingPhpDocRule
+        tags: [phpstan.rules.rule]
