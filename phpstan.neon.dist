@@ -1,17 +1,14 @@
-includes:
-    - phpstan-baseline.neon
-
 parameters:
-    level: 0
+    level: max
     paths:
         - var/www/sigge
         - var/lib/sigge/scripts
         - var/lib/sigge/plantillas_reportes
         - otros
+    autoload_files:
+        - MissingPhpDocRule.php
 
 services:
     -
         class: MissingPhpDocRule
-        autoloadFiles:
-            - MissingPhpDocRule.php
         tags: [phpstan.rules.rule]
