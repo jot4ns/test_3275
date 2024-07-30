@@ -12,4 +12,6 @@ parameters:
 services:
     -
         class: MissingPhpDocRule
+        autoloadFiles:
+            - MissingPhpDocRule.php
         tags: [phpstan.rules.rule]
