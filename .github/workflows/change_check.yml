@@ -72,7 +72,8 @@ jobs:
 
       - name: Run PHPStan on modified PHP files
         if: env.PHP_FILES != ''
-        run: vendor/bin/phpstan analyse --error-format=github ${{ env.PHP_FILES }}
+        run: |
+          ./vendor/bin/phpstan a $PHP_FILES --error-format=github
 
       - name: Run PHPCS on modified PHP files
         if: env.PHP_FILES != ''
