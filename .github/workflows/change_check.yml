@@ -73,7 +73,7 @@ jobs:
       - name: Run PHPStan on modified PHP files
         if: env.PHP_FILES != ''
         run: |
-          ./vendor/bin/phpstan a $PHP_FILES --error-format=github
+          ./vendor/bin/phpstan analyse $PHP_FILES --error-format=github
 
       - name: Run PHPCS on modified PHP files
         if: env.PHP_FILES != ''
@@ -83,3 +83,15 @@ jobs:
       - name: No files modified
         if: env.PHP_FILES == '' && env.SQL_FILES == '' && env.HAS_PREVIOUS_COMMIT == 'true'
         run: echo "No PHP or SQL files have been modified."
+
+      - name: Check PHPStan Version
+        run: ./vendor/bin/phpstan --version
+
+      - name: List Composer Installed Packages
+        run: composer show
+
+      - name: Verify MissingPhpDocRule File
+        run: ls -l MissingPhpDocRule.php
+
+      - name: Run PHPStan with Basic Configuration
+        run: ./vendor/bin/phpstan analyse var/www/sigge --level=1
