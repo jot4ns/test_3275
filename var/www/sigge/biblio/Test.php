@@ -22,8 +22,6 @@ class HolaMundo
     /**
      * Saluda a una persona específica.
      *
-     * @param string $nombre El nombre de la persona a saludar.
-     *
      * @return string
      */
     public function saludarA(string $nombre): string
