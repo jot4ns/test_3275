@@ -6,7 +6,7 @@ parameters:
         - var/lib/sigge/plantillas_reportes
         - otros
     autoload_files:
-        - MissingPhpDocRule.php
+        - missing_php_doc_rule.php
 
 services:
     -
